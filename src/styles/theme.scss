@@ -1,0 +1,37 @@
+@charset 'UTF-8';
+
+/**
+ * [Slate Bootstrap Theme v1.0] | Built with Slate
+  */
+
+// Settings
+@import './variables';
+
+// Bootstrap CSS
+@import '~bootstrap/scss/bootstrap';
+
+// Tools
+@import './tools/mixins';
+
+// Core
+@import './core/helpers';
+@import './core/media';
+@import './core/typography';
+
+// Components
+@import './components/placeholders';
+@import './components/carousels';
+@import './components/buttons';
+@import './components/icons';
+@import './components/responsive-images';
+@import './components/breadcrumbs';
+
+// // Sections
+@import './sections/hero-banner';
+@import './sections/image-banner';
+@import './sections/header';
+
+// Templates
+// @import './templates/gift_card';
+@import './templates/product';
+@import './templates/cart';
