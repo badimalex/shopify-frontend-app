@@ -8,10 +8,10 @@ import '../vendor/lazysizes/plugins/ls.bgset';
 import 'lazysizes/plugins/respimg/ls.respimg';
 import 'lazysizes';
 
-import {focusHash, bindInPageLinks} from '@shopify/theme-a11y';
+import { focusHash, bindInPageLinks } from '@shopify/theme-a11y';
 
-import "../../styles/theme.scss";
-import "../../styles/theme.scss.liquid";
+import '../../styles/theme.scss';
+import '../../styles/theme.scss.liquid';
 
 // Common a11y fixes
 focusHash();
@@ -20,7 +20,6 @@ bindInPageLinks();
 // Set up jQuery so that it can be accessed from the HTML
 window.jQuery = $;
 window.$ = $;
-
 
 // cookiesEnabled was removed from the latest version of theme-scripts cart.js
 // https://github.com/Shopify/starter-theme/issues/112

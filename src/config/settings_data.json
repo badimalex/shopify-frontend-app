@@ -31,13 +31,13 @@
         "featured-product": {
           "type": "featured-product"
         },
-        "announcement-banner": {
-          "type": "announcement-banner"
+        "data-collection-form": {
+          "type": "data-collection-form"
         }
       },
       "content_for_index": [
+        "data-collection-form",
         "featured-product",
-        "announcement-banner",
         "featured-collection"
       ]
     }
